@@ -14,7 +14,7 @@
 
 This is the sample config for the Neovim plugin: [dotnvim](https://github.com/adamkali/dotnvim). This serves for a kitchen sink for newer neovim devs who are working in neovim to get up to speed and only need to learn vim-motions before tinkering, veterans to try out `dotnvim`, and `dotnvim` contributers to test installations.
 
-Run to check switch colorscheme
+Run to switch colorscheme
 ```vim
 :Telescope colorscheme
 ```
