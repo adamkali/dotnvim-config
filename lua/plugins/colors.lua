@@ -7,6 +7,13 @@ return {
         opts = {},
     },
     { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+        {
+        "adamkali/vaporlush",
+        dependencies = { "rktjmp/lush.nvim" },
+        lazy = false,
+        name = "vaporlush",
+        priority = 1000,
+    },
     {
         'maxmx03/fluoromachine.nvim',
         lazy = false,
