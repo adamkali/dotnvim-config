@@ -1,8 +1,36 @@
-# dotnvim-config/
+# dotnvim-config
+
+<a href="url"><img src="https://github.com/adamkali/dotnvim/blob/main/assets/DotNvim.png" height="128" width="128" ></a>
+
+---
 
 <a href="https://dotfyle.com/adamkali/dotnvim-config"><img src="https://dotfyle.com/adamkali/dotnvim-config/badges/plugins?style=flat" /></a>
 <a href="https://dotfyle.com/adamkali/dotnvim-config"><img src="https://dotfyle.com/adamkali/dotnvim-config/badges/leaderkey?style=flat" /></a>
 <a href="https://dotfyle.com/adamkali/dotnvim-config"><img src="https://dotfyle.com/adamkali/dotnvim-config/badges/plugin-manager?style=flat" /></a>
+
+---
+
+## What is this?
+
+This is the sample config for the Neovim plugin: [dotnvim](https://github.com/adamkali/dotnvim). This serves for a kitchen sink for newer neovim devs who are working in neovim to get up to speed and only need to learn vim-motions before tinkering, veterans to try out `dotnvim`, and `dotnvim` contributers to test installations.
+
+Run to check switch colorscheme
+```vim
+:Telescope colorscheme
+```
+
+## Required
+- `treesitter`
+- `dotnet`
+- `node`
+- a js package manager
+- `fd`
+- `ripgrep`
+
+
+## Optional dependencies
+- `cargo` This is for htmx support for blazor pages. [See this tutorial](https://github.com/khalidabuhakmeh/BlazorHtmx) for how to set up that kind of app. Remove from `"htmx",` from the [/lua/plugins/lsp.lua](https://github.com/adamkali/dotnvim-config/blob/main/lua/plugins/lsp.lua)
+
 
 ## Install Instructions
 
